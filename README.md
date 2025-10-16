@@ -1,4 +1,4 @@
-# ** Argo CD App-of-Apps Project (Helm Installation)**
+# Argo CD App-of-Apps Project
 
 ## **1️⃣ Prerequisites**
 
@@ -183,6 +183,7 @@ kubectl get all -n prod
 * Extend to **multiple clusters** for production GitOps
 
 ---
+
 
 
 
