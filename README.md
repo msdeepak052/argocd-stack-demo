@@ -1,4 +1,4 @@
-# **README: Argo CD App-of-Apps Project (Helm Installation)**
+# ** Argo CD App-of-Apps Project (Helm Installation)**
 
 ## **1️⃣ Prerequisites**
 
@@ -187,4 +187,5 @@ kubectl get all -n prod
 This README now covers everything: **Helm → Minikube → Argo CD → manifests → child & parent apps → UI verification → kubectl verification**.
 
 ---
+
 
