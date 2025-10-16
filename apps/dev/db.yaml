@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: db-dev
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/msdeepak052/argocd-stack-demo.git
+    targetRevision: main
+    path: manifests/db
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
